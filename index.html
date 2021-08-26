@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/898c2e90e6.js" crossorigin="anonymous"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <title>Compiled Practice for Website</title>
 </head>
@@ -13,7 +18,7 @@
 <body>
     <header class="showcase">
         <div class="content">
-            <img src="img/PlaceholderCircLogo2.png" class="logo" alt="Jesus Barron">
+            <img src="img/jess_logo.png" class="logo" alt="Jesus Barron">
             <div class="title">
                 Welcome To My Website
             </div>
@@ -23,7 +28,83 @@
         </div>
     </header>
 
+    <!-- About Me -->
+    <section class="aboutMe">
+        <div class="container grid-3 center">
+            <div>
+                <i class="fas fa-user-tie fa-3x"></i>
+                <h3>About Me</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, illum?</p>
+            </div>
+            <div>
+                <i class="fas fa-chalkboard-teacher fa-3x"></i>
+                <h3>Education</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, blanditiis!</p>
+            </div>
+            <div>
+                <i class="fas fa-briefcase fa-3x"></i>
+                <h3>Work Experience</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects bg-light">
+        <div class="container">
+            <div class="grid-2">
+                <div class="center">
+                    <i class="fas fa-laptop-code fa-10x"></i>
+                </div>
+                <div>
+                    <h3>My Projects</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum tenetur, harum explicabo voluptates totam doloribus omnis quas architecto nemo nulla!</p>
+                </div>
+            </div>
+        </div>
+
+    <main class="container_2">
+        <section class="card" data-aos="fade-right">
+            <img src="img/CristineLogo-Moble&Wide.jpg" alt="">
+            <div>
+                <h3>This Website</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, reprehenderit.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="img/PhotoBackgrounds/BloomBackground.jpg" alt="">
+            <div>
+                <h3>Brigham & Womens Hospital GPS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, reprehenderit.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="img/Robotics2002/20191211_121726.jpg" alt="">
+            <div>
+                <h3>WPI Robotics Courses</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, reprehenderit.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+    </main>
+    </section>
+
+    <footer class="center bg-dark">
+        <p>Jesus Barron &copy; 2021</p>
+    </footer>
+
+    <!-- Script for Animations on Scroll -->
+    <script src="img/image_from_ios.jpg"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 800
+        });
+    </script>
 
 </body>
-
 </html>
